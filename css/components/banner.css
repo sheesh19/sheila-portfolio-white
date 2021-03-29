@@ -15,8 +15,8 @@
     height: 16rem;
     width: 16rem;
     border-radius: 50%;
-    object-fit: cover;
+    background-size: cover;
     background-position: center;
-    background-image: url(../assets/sheila.jpg);
+    background-image: url(../assets/sheilaprofile.jpg);
     justify-self: self-end;
 }

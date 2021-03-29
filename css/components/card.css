@@ -1,0 +1,19 @@
+.card-grid {
+    margin: 0 auto;
+    margin-top: 4rem;
+    width: 88vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2rem;
+}
+
+.card-work-img {
+    width: 28rem;
+    height: 16rem;
+    border-radius: 4px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-work-txt {
+}

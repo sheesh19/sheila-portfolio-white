@@ -1,0 +1,11 @@
+.section-text {
+    height: 24vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-work {
+    text-align: center;
+}
