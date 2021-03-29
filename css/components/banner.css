@@ -1,0 +1,22 @@
+.banner {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 6rem;
+}
+
+.banner > img {
+    align-items: flex-end;
+}
+
+.banner-profile-img {
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background-position: center;
+    background-image: url(../assets/sheila.jpg);
+    justify-self: self-end;
+}

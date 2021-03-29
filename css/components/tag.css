@@ -1,0 +1,28 @@
+.banner-tags {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    width: fit-content;
+}
+
+.tag-banner {
+    width: 16rem;
+
+    border-radius: 2px;
+    height: 2.4rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 0.08rem;
+    font-weight: lighter;
+}
+
+.tag-pink {
+    background-color: #E56299;
+}
+
+.tag-blue {
+    background-color: #4DB2C8;
+}
