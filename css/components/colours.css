@@ -1,0 +1,14 @@
+/* Colours */
+
+:root {
+    --pink: #E56299;
+    --blue: #4DB2C8;
+    --teal: #37BEB6;
+    --grey: #888888;
+    --grey-overlay: rgba(119, 119, 119, .72);
+    --dark-overlay: rgba(16, 22, 23, 0.9);
+    --teal-overlay: rgba(82, 130, 136, 0.88);
+    --dark-grey-overlay: rgba(102, 102, 102, 0.88);
+    --light-grey-overlay: rgba(238, 238, 238, 0.8);
+    --light-grey-background: rgba(238, 238, 238, 0.4);
+}

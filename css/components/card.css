@@ -36,6 +36,11 @@
     text-transform: uppercase;
 }
 
+.card-text {
+    color: #033033;
+    font-weight: lighter;
+}
+
 
 .card-tag-grid {
     display: flex;
@@ -45,7 +50,7 @@
 }
 
 .card-tag {
-    background: #37BEB6;
+    background: var(--teal);
     padding: 0.4rem 1rem;
     border-radius: 24px;
     color: white;

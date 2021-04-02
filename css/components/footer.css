@@ -1,6 +1,48 @@
 footer {
     margin-top: 12rem;
-    background-color: #37BEB6;
+    background-color: var(--teal);
     color: white;
     height: 12rem;
+    text-align: center;
+}
+
+.footer-text {
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+    margin-top: 2.6rem;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 32%;
+    margin-left: -6%;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+
+.social-icon {
+    height: 32px;
+    width: 32px;
+}
+
+.social-clickable {
+    position: relative;
+    display: inline;
+}
+
+.social-overlay {
+    height: 40px;
+    width: 40px;
+    opacity: 0;
+    position: absolute;
+    top: -25px;
+    border-radius: 4px;
+}
+
+.social-overlay:hover {
+    opacity: 0.3;
+    z-index: 1;
 }

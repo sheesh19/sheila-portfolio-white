@@ -1,13 +1,13 @@
 .em-pink {
-    color: #E56299;
+    color: var(--pink);
 }
 
 .em-blue {
-    color: #4DB2C8;
+    color: var(--blue);
 }
 
 .em-green {
-    color: #37BEB6;
+    color: var(--teal);
 }
 
 a {
@@ -18,6 +18,6 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #E56299;
+    color: var(--pink);
     transition: 400ms ease-in-out;
 }

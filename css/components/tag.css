@@ -20,7 +20,7 @@
 }
 
 .tag-pink {
-    background-color: #E56299;
+    background-color: var(--pink);
     transition: transform 400ms ease-in-out;
 
 }
@@ -31,7 +31,7 @@
 }
 
 .tag-blue {
-    background-color: #4DB2C8;
+    background-color: var(--blue);
     transition: transform 400ms ease-in-out;
 }
 
