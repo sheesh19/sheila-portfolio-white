@@ -39,3 +39,10 @@
     transform: scale(1.02);
     transition: transform 400ms ease-in-out;
 }
+
+
+@media(max-width: 1200px) {
+    .banner-tags {
+        grid-template-columns: 1fr;
+    }
+}

@@ -20,3 +20,18 @@
     background-image: url(../assets/sheilaprofile.jpg);
     justify-self: self-end;
 }
+
+@media(max-width: 1200px) {
+    .banner {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+
+    .banner-profile-img {
+        justify-self: center;
+    }
+
+    .banner-text {
+        margin: 0 auto;
+    }
+}

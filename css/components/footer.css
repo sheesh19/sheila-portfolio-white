@@ -46,3 +46,9 @@ footer {
     opacity: 0.3;
     z-index: 1;
 }
+
+@media(max-width: 1200px) {
+    .social {
+        width: 88%;
+    }
+}
