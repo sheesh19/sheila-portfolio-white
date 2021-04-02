@@ -21,8 +21,21 @@
 
 .tag-pink {
     background-color: #E56299;
+    transition: transform 400ms ease-in-out;
+
+}
+
+.tag-pink:hover {
+    transform: scale(1.04);
+    transition: transform 400ms ease-in-out;
 }
 
 .tag-blue {
     background-color: #4DB2C8;
+    transition: transform 400ms ease-in-out;
+}
+
+.tag-blue:hover {
+    transform: scale(1.02);
+    transition: transform 400ms ease-in-out;
 }

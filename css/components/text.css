@@ -9,3 +9,15 @@
 .em-green {
     color: #37BEB6;
 }
+
+a {
+    text-decoration: none;
+    color: #033033;
+    transition: 400ms ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #E56299;
+    transition: 400ms ease-in-out;
+}

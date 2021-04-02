@@ -1,0 +1,20 @@
+.arrow {
+    border: 1px solid #E56299;
+    color: #E56299;
+    border-radius: 50%;
+    padding: 0.2rem 0.42rem;
+    margin-left: 0.4rem;
+    transition: 400ms ease-in-out;
+}
+
+.arrow:hover {
+    background-color: #E56299;
+    color: white;
+    transition: 400ms ease-in-out;
+}
+
+a:hover > .arrow {
+    color: white;
+    background-color: #E56299;
+    transition: 400ms ease-in-out;
+}
