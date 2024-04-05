@@ -2,6 +2,9 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     color: #033033;
+    /* color: #fff; */
+    /* background-image: url(../assets/circle-scatter-haikei.svg); */
+    /* background-image: linear-gradient(to right top, #1d525e, #1e6571, #1f7983, #228d93, #28a2a3, #38aeac, #46bab6, #53c6bf, #64ccc6, #73d3cd, #82d9d3, #90dfda); */
 }
 
 h1 {

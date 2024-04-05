@@ -1,6 +1,6 @@
 .arrow {
-    border: 1px solid #E56299;
-    color: #E56299;
+    border: 1px solid var(--blue);
+    color: var(--blue);
     border-radius: 50%;
     padding: 0.2rem 0.42rem;
     margin-left: 0.4rem;
@@ -8,13 +8,15 @@
 }
 
 .arrow:hover {
-    background-color: #E56299;
+    border: 1px solid var(--pink);
+    background-color: var(--pink);
     color: white;
     transition: 400ms ease-in-out;
 }
 
 a:hover > .arrow {
     color: white;
-    background-color: #E56299;
+    border: 1px solid var(--pink);
+    background-color: var(--pink);
     transition: 400ms ease-in-out;
 }
